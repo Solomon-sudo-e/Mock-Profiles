@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    password: socialmedia
+    username: socialmedia
+    url: jdbc:mysql://localhost:3306/socialmedia
+
+
+logging:
+  level:
+    root: warn 
+    '[com.solomonhufford]' : debug
